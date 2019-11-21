@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap');
+ * {
+     padding: 0px;
+     margin: 0px;
+}
+ body {
+     font-family: 'Source Sans Pro', sans-serif;
+     background-color: #F3F3F3;
+}
+/*Index Start*/
+.myadmi .top_bar{
+	width: 99%;
+	background: #204562;
+}
+.myadmi .top_bar img.myimg{
+	height: 30px;
+	width: 30px;
+	border-radius: 150px;
+}
+.myadmi .top_bar .title {
+    color: white;
+    padding: 10px;
+}.myadmi .top_bar .title h1{
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+.myadmi .top_bar .title ul{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.myadmi .top_bar .title ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+.myadmi .top_bar .title ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.myadmi .left_box{
+	height: 600px;
+	width: 17%;
+	float: left;
+	background-color:#2E5E79;
+}
+.myadmi .left_box img.myimg{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.myadmi .left_box .admin_menu{}
+.myadmi .left_box .admin_menu ul{
+	margin-top: 20px;
+    margin-left: 27px;
+}
+.myadmi .left_box .admin_menu ul li{
+	list-style-type: none;
+}
+.myadmi .left_box .admin_menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 5px 0px 5px 10px;
+	transition: .2s;
+	color: white;
+}
+.myadmi .left_box .admin_menu ul li a:hover{
+	margin-left: 5px;
+	opacity: .8;
+}
+.myadmi .left_box .admin_menu ul li a i{
+	margin-right: 10px;
+}
+.myadmi .right_box{
+	float: left;
+	width: 80%;
+}
+/*Index End*/
+/*Order Start*/
+.myorder{
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #2E5E79;
+	overflow: hidden;
+}
+.myorder .title{
+	background-color: #E6F0F3;
+	padding: 5px;
+	border-bottom: 1px solid #2E5E79;
+}.myorder .title h1 {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 4px;
+}.myorder .mytable table{
+	width: 100%;
+}
+.myorder .mytable table td,th{
+	padding: 3px;
+	border: 1px solid #2E5E79;
+}
+span.btn.btn-danger {
+    margin-right: 20px;
+}
+/*Order End*/
+
+/*Catagory End*/
+.myorder .left_boxs{
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+.myorder .level {
+    font-size: 22px;
+    color: #2E5E79;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.myorder input[type="text"] {
+    width: 43%;
+    border: px;
+    border: 1px solid #2E5E79;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.myorder input[type="submit"] {
+    padding: 6px;
+    width: 20%;
+    margin-left: 10px;
+    background: #2E5E79;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.myorder .right_boxs{
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+.myorder .right_boxs table td,th{
+	padding: 10px;
+	border: 1px solid #2E5E79;
+	border-radius: 3px;
+}
+/*Catagory End*/
+
+/*Add Product Start*/
+.myorder .addpd{
+	padding: 20px;
+}
+.myorder .addpd h2 {
+    font-size: 20px;
+    color: #2E5E79;
+    margin-top: 10px;
+}
+.myorder .addpd input[type="text"] {
+    width: 35%;
+    border: px;
+    border: 1px solid #2E5E79;
+    padding: 5px;
+    border-radius: 3px;
+}.myorder .addpd input[type="submit"] {
+    padding: 6px;
+    width: 20%;
+    margin:0px;
+    background: #2E5E79;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}.myorder .addpd select {
+    width: 10%;
+    padding: 3px;
+    border: 0px;
+    border-radius: 3px;
+    background: #204562;
+    color: white;
+}
+.myorder a.btn.btn-info {
+    width: 100%;
+}
+
+.myorder a.btn.btn-danger {
+    width: 100%;
+}
+/*Add product end*/
+/*Login Page Start*/
+.login_page{
+	background-color: #2E5E79;
+	padding-top: 180px;
+	padding-bottom: 180px;
+}.login_page h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}.login_page .login_box{
+	padding: 40px;
+	background-color: #204562;
+	width: 30%;
+	margin: 0px auto;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px gray;
+}.login_page .login_box input[type="text"] {
+    padding: 6px;
+    width: 100%;
+    margin:0px;
+    background: #2E5E79;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}
+.login_page .login_box input[type="password"] {
+    padding: 6px;
+    width: 100%;
+    margin-top:10px;
+    background: #2E5E79;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}.login_page .login_box input[type="submit"] {
+    padding: 6px;
+    width: 100%;
+    margin-top:10px;
+    background: #2E5E79;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+}
+/*Login Page end*/
+.error{color: red}
+.succ{color: green}
+a.btn.btn-info {padding: 0px;width: 30%;margin-right: 10px;}
+a.btn.btn-danger {padding: 0px;width: 30%;margin-right: 10px;}
+a.btn.btn-warning {padding: 0px;width: 30%;margin-right: 10px;}
+
+span.btn.btn-danger {
+    padding: 2px;
+    width: 40%;
+}
+
+span.btn.btn-info {
+    padding: 2px;
+    width: 40%;
+}
+.as input[type="text"]{
+    width: 100%!important;
+}
